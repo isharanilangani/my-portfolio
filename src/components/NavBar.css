@@ -1,0 +1,70 @@
+/* Reset default styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if needed */
+  background-color: #f0f0f0; /* Background color */
+  padding: 10px 0; /* Padding for vertical space */
+}
+
+/* Navbar list */
+.navbar-list {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar items */
+.navbar-item {
+  margin: 0 1.5px; /* Space between items */
+}
+
+.navbar-item a {
+  display: block;
+  width: 100px; /* Set width for square appearance */
+  height: 50px; /* Set height for square appearance */
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  background-color: #007bff; /* Background color */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  font-size: 16px; /* Text size */
+  font-weight: bold; /* Text weight */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+/* Hover effect */
+.navbar-item a:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.navbar-list,
+.navbar-item a {
+  display: flex;
+}
+
+.download-link {
+  color: #007bff; /* Adjust icon color as needed */
+  font-size: 20px; /* Adjust icon size as needed */
+  text-decoration: none;
+  position: absolute; /* Absolute positioning */
+  right: 30px; /* Adjust distance from the right edge */
+  top:6%;
+  transform: translateY(-50%); /* Center vertically */
+}
+
+.download-link:hover {
+  opacity: 1;
+  visibility: visible;
+  color: #0056b3;
+}

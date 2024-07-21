@@ -1,0 +1,32 @@
+.language-progress {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 50px;
+}
+
+.language-label {
+  flex: 1;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.progress-bar {
+  flex: 3;
+  height: 10px;
+  width: 50px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.progress {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.percentage-label {
+  flex: 1;
+  font-size: 14px;
+  text-align: right;
+}

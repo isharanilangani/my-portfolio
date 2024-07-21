@@ -1,0 +1,47 @@
+.experience-item {
+  display: flex;
+  text-align: left;
+}
+
+.experience-date {
+  flex: 1;
+  text-align: left;
+  padding-right: 20px;
+  color: #0056b3;
+}
+
+.experience-details {
+  flex: 3;
+}
+
+.experience-item h2,
+.experience-item h3,
+.experience-item p,
+.experience-item ul {
+  margin: 0;
+  padding: 10px;
+}
+
+.experience-item p {
+  color: #7e7e7e;
+}
+
+.experience-item ul {
+  list-style-type: disc;
+  margin: 10px 0 0 40px;
+  color: #7e7e7e;
+}
+
+.experience-item li {
+  margin-bottom: 5px;
+}
+
+.experience-container {
+  margin: 40px 0 0 50px;
+  max-height: 200px; /* Adjust the height as needed */
+  overflow-y: auto; /* Adds vertical scrollbar if content exceeds max-height */
+  padding: 20px; /* Optional: adds padding for better spacing */
+  border: 1px solid #ddd; /* Optional: adds a border for visual separation */
+  border-radius: 8px; /* Optional: rounds the corners of the container */
+  background-color: #f9f9f9; /* Optional: sets a background color */
+}

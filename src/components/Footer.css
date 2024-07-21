@@ -1,0 +1,29 @@
+/* Footer container */
+.footer {
+    background-color: #f0f0f0; /* Background color */
+    color: #007bff; 
+    height: 20px;             /* Text color */
+    padding: 20px 0;          /* Vertical padding */
+    text-align: center;       /* Center text */
+  }
+  
+  /* Footer content */
+  .footer-content {
+    max-width: 1200px;        /* Max width for content alignment */
+    margin: 0 auto;           /* Center the content */
+    padding: 0 20px;          /* Horizontal padding */
+  }
+  
+  /* Styling for the heart icon */
+  .footer-heart-icon{
+    color: red;               /* Heart color */
+    margin: 0 5px;            /* Space around heart */
+    font-size: 1.2em;         /* Size of the heart icon */
+  }
+  
+  /* Footer text styling */
+  .footer-content p {
+    margin: 0;                /* Remove default margin */
+    font-size: 16px;          /* Text size */
+  }
+  

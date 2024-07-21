@@ -1,0 +1,74 @@
+.skills-container {
+  text-align: center; /* Center the text content */
+  padding: 20px; /* Add some padding around the container */
+  display: flex;
+}
+
+.skills-container .nav-bar {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox to align items horizontally */
+  justify-content: center; /* Center the list items horizontally */
+  margin: 0;
+}
+
+.skills-container .nav-bar .nav-item {
+  font-size: 18px; /* Set the font size for list items */
+  color: #7e7e7e; /* Set the color for list items */
+  margin: 0 15px; /* Add some space between list items */
+  cursor: pointer; /* Change cursor to pointer */
+  padding: 10px 20px; /* Add padding around list items */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s; /* Smooth transition for color changes */
+}
+
+.skills-container .nav-bar .nav-item a {
+  color: inherit; /* Inherit color from parent */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.skills-container .nav-bar .nav-item:hover {
+  color: #0056b3; /* Change color on hover */
+}
+
+.skills-all-container h3 {
+  margin: 0;
+}
+
+.skills-all-category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skills-category {
+  padding-top: 20px;
+  display: flex; /* Use flexbox to align items */
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+}
+
+.skills-category-line {
+  flex: 1 1 calc(50% - 20px); /* 50% width minus the gap for two columns */
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.circle-container {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column within each circle-container */
+  align-items: center; /* Center the items horizontally */
+  margin: 0 0 0 50px; /* Add some margin for spacing between items */
+  height: 300px; /* Adjust the height as necessary */
+  width: 150px;
+}
+
+.skills-all-container {
+  margin: 40px 0 0 50px;
+  max-height: 200px; /* Adjust the height as needed */
+  overflow-y: auto; /* Adds vertical scrollbar if content exceeds max-height */
+  padding: 20px; /* Optional: adds padding for better spacing */
+  border: 1px solid #ddd; /* Optional: adds a border for visual separation */
+  border-radius: 8px; /* Optional: rounds the corners of the container */
+  background-color: #f9f9f9; /* Optional: sets a background color */
+}
